@@ -210,7 +210,7 @@ IPInfo.groupByISP = (ipdata) => {
 
 
 IPInfo.loadInfo = async (ips) => {
-    const url = "http://ip-api.com/batch"
+    const url = "https://ip-api.com/batch"
     let prms = {
         method: 'POST',
         body: JSON.stringify(
